@@ -1,24 +1,67 @@
-# README
+ # Hello-Rails-BACKEND
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Project consists of an Api backend created using Ruby-on-Rails. Random messages are displayed on page refresh of API endpoint.
+## Built With
 
-Things you may want to cover:
+- Ruby On Rails
+- Git
 
-* Ruby version
+## LIVE
 
-* System dependencies
+[Live version right here !](https://random-greeting-api.herokuapp.com/api/v1/messages)
 
-* Configuration
 
-* Database creation
 
-* Database initialization
+## FRONT-END-REPO
 
-* How to run the test suite
+[Front end using React](https://github.com/mahbubul14/hello-react-front-end/)
 
-* Services (job queues, cache servers, search engines, etc.)
+## Getting Started
+Follow these steps below :
 
-* Deployment instructions
 
-* ...
+### Setup
+ ```git clone https://github.com/mahbubul14/hello-rails-back-end/```
+
+ ```cd hello-rails-back-end```
+
+### Prerequisites
+
+    Ruby Rails PostgresSQL
+
+Install gems with:
+    
+    bundle install
+
+Start server with:
+
+    rails s
+
+Open http://localhost:3000/api/v1/messages in your browser to see json object consisting of a random message every time the page is refreshed.
+
+Install npm with:
+
+    npm install
+
+Install all Ruby dependecies with:
+
+    bundle install
+
+## Author
+
+👤 **Mahbub Alam**
+
+- GitHub: [@mahbubul14](https://github.com/mahbubul14)
+- Twitter: [@twitterhandle](https://twitter.com/mahbubul_14)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mahbubul14/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/redwing555/hello-rails-react/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
